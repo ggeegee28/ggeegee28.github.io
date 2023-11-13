@@ -300,11 +300,11 @@ a {
   vertical-align: middle;
   overflow: hidden;
   text-decoration: none;
-  color: inherit;
-  background-color: inherit;
+  
   text-align: center;
   cursor: pointer;
   white-space: nowrap;
+  color:#000;
 }
 .w3-btn:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -628,7 +628,7 @@ a {
     width: 16.66666%;
   }
   .w3-col.l3 {
-    width: 24.99999%;
+    width: 29.99999%;
   }
   .w3-col.l4 {
     width: 33.33333%;
@@ -895,11 +895,10 @@ a {
 .w3-row-padding > .w3-col {
   padding: 0 8px;
 }
+.
 
 .w3-panel {
-  padding: 0.01em 10px;
-}
-.w3-panel {
+    padding: 0.01em 16px;
   margin-top: 16px;
   margin-bottom: 16px;
 }
@@ -1619,4 +1618,13 @@ a {
 .w3-border-pale-blue,
 .w3-hover-border-pale-blue:hover {
   border-color: #e7ffff !important;
+}
+/* My style */
+.pink-background {
+    background-color:#EE0078
+}
+
+.map{
+    margin-top: 80px;
+    padding: 0 16px;
 }
